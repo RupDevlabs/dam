@@ -15,26 +15,37 @@ body {
     font-size: 24px;
   }
 
-  .category-buttons {
-    margin-top: 20px;
-  }
+   /* Grid Container */
+    #category-buttons {
+      width: 90%;
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
 
-  .category-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px;
-    margin: 10px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 200px;
-    height: 160px;
-  }
+    .category-button {
+      display: inline-block;
+      width: 45%;
+      height: 140px;
+      background-color: #ff7b76;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      line-height: 100px;
+      border-radius: 8px;
+      border-color: #ff7b76;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+  
+    .category-button:hover {
+      background-color: #ff7b76;
+    }
 
-  .category-button:hover {
-    background-color: #45a049;
-  }
 
   .game-container {
     width: 90%;
