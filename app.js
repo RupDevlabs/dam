@@ -3,7 +3,7 @@ const categories = {
         { question: "What is the capital of France?", answers: ["Berlin", "Madrid", "Paris", "Rome"], correct: 2 },
         { question: "What is 2 + 2?", answers: ["3", "4", "5", "6"], correct: 1 }
       ],
-      "Science": [
+      "Math": [
         { question: "What is the chemical symbol for water?", answers: ["O2", "H2O", "CO2", "HO2"], correct: 1 },
         { question: "What planet is known as the Red Planet?", answers: ["Earth", "Mars", "Jupiter", "Saturn"], correct: 1 }
       ],
